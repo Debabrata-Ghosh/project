@@ -50,12 +50,12 @@ Sign In
 							</div>
 						</div>
 						<div class="col-sm-4 text-right">
-							<button type="submit" class="btn btn-primary hidden-xs">Sign In</button>
+							<a href="{{route('home')}}" type="submit" class="btn btn-primary hidden-xs">Sign In</a>
 							<button type="submit" class="btn btn-primary btn-block btn-lg visible-xs mt-lg">Sign In</button>
 						</div>
 					</div>
 					<div class="row signin">
-						<p class="text-center">Don't have an account yet? <a href="pages-signup.html">Sign Up!</a></p>
+						<p class="text-center">Don't have an account yet? <a href="{{route('signup')}}">Sign Up!</a></p>
 					</div>
 
 				</form>
